@@ -1,0 +1,20 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat with SocketIO</title>
+  </head>
+
+  <body>
+    <h1>Chat with SocketIO</h1>
+    <input id="username" type="text" placeholder="Votre pseudo" />
+    <button id="send_username">Changer de nom</button> <br />
+    <textarea id="message" placeholder="Votre message"></textarea>
+    <button id="send_message">Envoyer</button>
+    <p id="feedback"></p>
+    <div id="chatroom"></div>
+  </body>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="chat.js"></script>
+</html>
